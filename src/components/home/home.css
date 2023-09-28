@@ -1,0 +1,53 @@
+.card {
+  max-width: 500px;
+  margin: 25px auto;
+  height: max-content;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
+}
+.card-pic {
+  display: flex;
+}
+.card-pic > h5 {
+  margin: 0;
+  padding: 11px;
+}
+.card-pic > img {
+  width: 30px;
+  border-radius: 30px;
+  height: auto;
+  object-fit: contain;
+  padding: 5px;
+}
+.card-post > img {
+  width: 100%;
+}
+.content {
+  text-align: left;
+  line-height: 5px;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+.add-comments {
+  display: flex;
+  align-items: center;
+}
+.add-comments input {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.comment {
+  border: none;
+  background: none;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #43a8eb;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+.material-symbols-outlined-red {
+  color: red;
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "OPSZ" 48;
+}
